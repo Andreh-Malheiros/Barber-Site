@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Style - Barbeiro Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">João Style</a>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#location">Localização</a></li>
+            </ul>
+            <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="mobile-menu" id="mobileMenu">
+                <a href="#home" onclick="closeMobileMenu()">Início</a>
+                <a href="#gallery" onclick="closeMobileMenu()">Galeria</a>
+                <a href="#about" onclick="closeMobileMenu()">Sobre</a>
+                <a href="#location" onclick="closeMobileMenu()">Localização</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Transforme seu visual com quem já atendeu <span class="highlight">estrelas</span></h1>
+                    <p>Mais de 10 anos de experiência criando looks únicos para celebridades, influenciadores e clientes
+                        exigentes. Sua transformação começa aqui.</p>
+                </div>
+                <div class="hero-image">
+                    <img src="img/barber-foto.jpg"
+                        alt="João Style - Barbeiro Premium">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Action Buttons -->
+    <section class="action-buttons" id="actionButtons">
+        <div class="container">
+            <h2>Agende Seu Horário</h2>
+            <div class="buttons-grid">
+                <a href="#" class="action-btn btn-app">
+                    <i class="fab fa-apple"></i>
+                    Baixar App iOS
+                </a>
+                <a href="#" class="action-btn btn-app">
+                    <i class="fab fa-google-play"></i>
+                    Baixar App Android
+                </a>
+                <a href="https://wa.me/5511999999999" class="action-btn btn-whatsapp">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </a>
+                <a href="https://instagram.com/joaostyle" class="action-btn btn-instagram">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="fade-in">Nossos Trabalhos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-1.jpg" alt="Corte Clássico">
+                    <div class="gallery-overlay">
+                        <h3>Corte Clássico</h3>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-2.jpg" alt="Fade Moderno">
+                    <div class="gallery-overlay">
+                        <h3>Fade Moderno</h3>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-3.jpg" alt="Barba Estilizada">
+                    <div class="gallery-overlay">
+                        <h3>Barba Estilizada</h3>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-2.jpg" alt="Corte Executivo">
+                    <div class="gallery-overlay">
+                        <h3>Corte Executivo</h3>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-3.jpg" alt="Estilo Jovem">
+                    <div class="gallery-overlay">
+                        <h3>Estilo Jovem</h3>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in">
+                    <img src="img/cabelo-1.jpg" alt="Look Premium">
+                    <div class="gallery-overlay">
+                        <h3>Look Premium</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="fade-in">Estrelas que Confiam</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial fade-in">
+                    <img src="img/modelo-1.jpg" alt="Cliente VIP">
+                    <div class="stars">★★★★★</div>
+                    <p>"João é simplesmente o melhor! Sempre saio de lá me sentindo uma nova pessoa."</p>
+                    <h4>Carlos Silva - Ator</h4>
+                </div>
+                <div class="testimonial fade-in">
+                    <img src="img/modelo-2.jpg" alt="Cliente VIP">
+                    <div class="stars">★★★★★</div>
+                    <p>"Profissionalismo e qualidade incomparáveis. Recomendo de olhos fechados!"</p>
+                    <h4>Rafael Santos - Influencer</h4>
+                </div>
+                <div class="testimonial fade-in">
+                    <img src="img/modelo-3.jpg" alt="Cliente VIP">
+                    <div class="stars">★★★★★</div>
+                    <p>"Ambiente incrível e atendimento de primeira. João entende exatamente o que eu quero."</p>
+                    <h4>Bruno Costa - Empresário</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <h2>Sobre João Style</h2>
+                    <p>Com mais de uma década de experiência, João Style se estabeleceu como referência em cortes
+                        masculinos de alta qualidade. Formado nas melhores escolas de barbeiros do país, ele combina
+                        técnicas clássicas com tendências modernas.</p>
+                    <p>Nossa barbearia oferece uma experiência única, onde cada cliente recebe atenção personalizada em
+                        um ambiente sofisticado e acolhedor.</p>
+                    <ul class="about-features">
+                        <li><i class="fas fa-check"></i> Produtos premium importados</li>
+                        <li><i class="fas fa-check"></i> Ambiente climatizado e música ambiente</li>
+                        <li><i class="fas fa-check"></i> Atendimento personalizado</li>
+                        <li><i class="fas fa-check"></i> Técnicas modernas e clássicas</li>
+                        <li><i class="fas fa-check"></i> Higienização rigorosa</li>
+                    </ul>
+                </div>
+                <div class="about-image fade-in">
+                    <img src="img/barbearia.jpg"
+                        alt="Interior da Barbearia">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location -->
+    <section id="location" class="location">
+        <div class="container">
+            <h2 class="fade-in">Nossa Localização</h2>
+            <div class="location-content">
+                <div class="location-info fade-in">
+                    <h3>Venha nos Visitar</h3>
+                    <div class="location-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua das Flores, 123 - Jardins<br>São Paulo - SP, 01234-567</span>
+                    </div>
+                    <div class="location-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 99999-9999</span>
+                    </div>
+                    <div class="location-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Seg-Sex: 9h às 19h<br>Sáb: 8h às 17h</span>
+                    </div>
+                    <div class="location-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>contato@joaostyle.com.br</span>
+                    </div>
+                </div>
+                <div class="map-container fade-in">
+                    <div class="map-placeholder">
+                        <i class="fas fa-map-marked-alt"><iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467695.6198481794!2d-47.219134973032176!3d-23.680533967477075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1748020578694!5m2!1spt-BR!2sbr"
+                                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe></i>
+                        <span>Mapa Interativo do Google</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>João Style</h3>
+                    <p>Transformando looks, criando estilo.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <p>📱 (11) 99999-9999</p>
+                    <p>📧 contato@joaostyle.com.br</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Horários</h3>
+                    <p>Segunda a Sexta: 9h às 19h</p>
+                    <p>Sábado: 8h às 17h</p>
+                    <p>Domingo: Fechado</p>
+                </div>
+            </div>
+            <hr style="border-color: #333; margin: 2rem 0;">
+            <p>&copy; 2024 João Style. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/5511999999999" class="floating-whatsapp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</body>
+
+</html>
