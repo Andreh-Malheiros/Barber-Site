@@ -1,24 +1,39 @@
-# 💈 Joao Style - Landing Page
+# Landing Page - Barbearia Fictícia
 
-Landing page fictícia criada para divulgar os serviços de um barbeiro de alto nível, com foco em presença digital e agendamento.
+Landing page criada para um negócio fictício de barbearia, com foco em composição visual e apresentação de serviços.
 
-## 🧾 Descrição
+## 📌 Descrição
 
-Este projeto simula uma página profissional para um barbeiro que atende clientes influentes. A proposta é substituir o uso de plataformas como Linktree por um site com mais autoridade, personalidade e funcionalidade.
+Projeto feito para compor o portfólio de landing pages. A proposta inclui seções comuns a negócios locais, como apresentação, serviços, localização e contato.
 
-## 🔧 Tecnologias Utilizadas
+## 🚀 Tecnologias
 
+- HTML
 - CSS
-- HTML5
-- JavaScript (ES6+)
+- JavaScript
 
-## 💻 Funcionalidades
+## 🛠 Como executar
 
-- Apresentação do barbeiro e da barbearia
-- Galeria de cortes (estilo portfólio)
-- Botões de agendamento via app (Android/iOS)
-- Integração com Instagram e WhatsApp
-- Design responsivo
+1. Clone o repositório:
+   ```
+   git clone https://github.com/Andreh-Malheiros/Barber-Site
+   ```
+2. Abra o arquivo `index.html` no navegador.
 
----
+## 📸 Demonstração
 
+Acesse o projeto aqui: [Barber-Site](https://andreh-malheiros.github.io/Barber-Site/)
+
+## ⚙️ Funcionalidades
+
+- Página única (one-page)
+- Layout responsivo
+- Botão de contato fictício
+
+## 📄 Status
+
+Concluído ✅
+
+## 📝 Licença
+
+Uso pessoal / portfólio.
